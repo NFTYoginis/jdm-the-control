@@ -27,7 +27,7 @@ def assistant_text(raw):
     parts = re.split(r"(?im)^#{1,3}\s*(user|human|assistant|claude)\b.*$", raw)
     if len(parts) == 1: return raw, False
     out = [parts[i+1] for i in range(1, len(parts)-1, 2) if parts[i].lower() in ("assistant","claude")]
-    return "\n".join(out), True
+    return (out[0] if out else ""), True  # FIRST assistant block only = the nine-question reply; held-out replies are hand-graded
 
 def split_answers(t):
     segs = re.split(r"(?m)^\s*(?:\*\*)?\s*(\d)[\.\)\:]", t)
