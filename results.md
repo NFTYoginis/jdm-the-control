@@ -50,6 +50,9 @@ Four attempts were thrown out for protocol breaks, none because of the answers: 
 ## What I changed in the folder because of this
 Nothing. The folder was written once (commit 5) after Control A run 1 and Control B run 1, and was not tuned on the treatment or held-out results. Adding "mention that duration is individual" to rules.md would fix the one H3 gap and would be fitting the folder to a test question, so it was not done.
 
+## Addendum: behavior test (exploratory, after the tie)
+See `behavior/results.md`. Pre-registered bar (differs on 2 of 3 questions) NOT met: the folder differed on 1 of 3. Where a user describes their own injury, the folder declines to advise and a pasted-document control directs the user; elsewhere the arms behaved alike.
+
 ## Limits
 - n is tiny: nine questions, three held-out, one treatment nine-question run, two held-out samples. Counts, not percentages.
 - One document, one author (the same person who wrote the folder and the nine questions; the held-out three were written by an LLM that saw only the document). H1 to H3 overlap the nine in topic.
