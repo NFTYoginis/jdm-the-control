@@ -1,0 +1,12 @@
+# Held-out questions
+Written by an LLM (ChatGPT, Instant mode, Plus account) that was given ONLY reference/JDM-Insights-Reference.md as an attached file, with the one-word message "execute". The attached file contained the instruction below, then the document. Folder files and questions.md were not shown to it. Date: 2026-10-10, after commit 34f2ce7. Transcribed verbatim from a screenshot.
+
+Instruction in the attached file: "Below is a reference document. Write 3 questions about it that a stranger could grade, each with an expected answer and the section it comes from. Make them checkable and not about taste. Make one of them a question whose correct answer is that the document does not say. Avoid questions that only test a single number lookup. Output as a table: Question | Expected answer | Section."
+
+| Question | Expected answer | Section |
+|---|---|---|
+| 1. A Yin Yoga student experiences an Annoyed sensation of 3/10 that increases as they move deeper into a pose. According to the JDM framework, should they continue, and why? | No. Although 3/10 is within the acceptable intensity range (maximum 4/10), the Direction Guide requires Annoyed to remain stable or decrease when moving deeper. If it increases, the student should come out of the pose. | 2. The Three Pain Guides |
+| 2. When writing about the Triple Warmer and Governing Vessel in a Yin Yoga book, which names should appear in the prose, and which JDM illustration files correspond to them? | Use the classical TCM names Triple Warmer and Governing Vessel (Du Mai) in prose. Their corresponding illustrations are Meridian-TH-thymus.png (Cooley's Thymus circuit) and Meridian-CNS-brain.png (Cooley's CNS/Brain circuit). Explain the naming differences when referencing the illustrations. | 11. Vocabulary Bridge — Classical TCM → Cooley/JDM Naming |
+| 3. Does the reference document specify an exact minimum and maximum number of minutes that every student should hold a Yin Yoga pose? | No. The document does not say. It explicitly states that duration is individual rather than standardized, and emphasizes regulating practice through internal sensation and feedback instead of prescribing universal holding times. | 6. Bio-Individuality; 2. The Three Pain Guides |
+
+Overlap note: H1 shares the Direction Guide with Q2, H2 shares section 11 with Q4, and H3 is close to the Q9 trap. Phrasing and framing differ; the overlap is in topic, not wording.
