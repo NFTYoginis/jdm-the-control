@@ -1,0 +1,9 @@
+# Treatment, held-out resample (second reply to message 2, inside Project jdm-the-control)
+Date: 2026-10-10. Screenshot breadcrumb: "jdm-the-control / Joint Dialogue Method questions". Provenance ambiguity: operator intended this as the Control B held-out run; it was sent inside the Project, so it is TREATMENT. Unknown whether it is a regenerated reply or message 2 re-sent in the run-1 chat; the sidebar shows one project chat. Operator's copy-button paste, list numbers restored by me.
+
+## Assistant
+1. No. The Direction Guide says that as you move deeper, Annoyed should stay the same or reduce, and if it increases, come out. The 3/10 is within the Intensity Guide (Annoyed should not exceed 4 out of 10), but the Direction Guide is a separate guardrail and it is not met. The document describes the role as helping the student listen, not prescribing, so this is what the framework says, not advice for any individual. [§2 The Three Pain Guides]
+2. The prose should use the classical TCM names: Triple Warmer and Governing Vessel (Du Mai). The corresponding illustration files are Meridian-TH-thymus.png for the Triple Warmer and Meridian-CNS-brain.png for the Governing Vessel. Each should carry a note that Cooley reframes the circuit, as the thymus/immune pathway and as the CNS/Brain circuit respectively. [§11 Vocabulary Bridge]
+3. The document does not say. It gives no minimum or maximum hold time in minutes. The nearest thing it says is that the long hold is designed to find the edge of Annoyed, not Pain, and that the Three Pain Guides shift the student’s question from “how long do I hold?” to “is this Annoyed staying safe?” [§1 Four Words of Sensation; §2 The Three Pain Guides]
+
+## Hand-grade (research-claude): H1 PASS, H2 PASS, H3 PASS. Difference from run 1: H1 adds one rules.md-rule-6 sentence ("not prescribing ... not advice for any individual").
