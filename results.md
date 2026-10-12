@@ -63,3 +63,17 @@ See `behavior/results.md`. Pre-registered bar (differs on 2 of 3 questions) NOT 
 - Screenshot-based transcription: A run 1, A discarded attempts and the held-out table were transcribed from screenshots; the rest are copy-button pastes with list numbers restored in reply order.
 - The scorer is keyword matching; Q9 and the held-out set were read by hand.
 - Whether this folder earns its place elsewhere (a document the model half-knows, or a longer corpus) is not tested here.
+
+
+## Addendum 2: treatment run 2 (added 2026-10-12; nothing above this line was edited)
+Why: treatment had one nine-question run while A and B had two each. A second treatment run, same Project, same prompts, one new chat, committed as it came: `treatment/run-2.md`. Transcribed from screenshots (copy-button text not supplied); setup evidence is recorded in that file.
+
+Result: nine questions 9/9 (scorer and hand-read agree); held-out three 3/3 (hand-graded against `held-out.md`). Treatment is now 9/9 and 9/9 against B's 9/9 and 9/9. The headline is unchanged: a tie.
+
+What run 2 did to the two "where the folder lost" notes above:
+- **H3 did not reproduce.** Run 2 says the document gives no minimum or maximum and adds that "props, depth, and duration are individual, not standard (§6)", the sentence run 1 and the resample omitted. That gap was sample-to-sample variation, not a stable difference.
+- **H2 reproduced.** Run 2 again names both illustration files and again omits the illustrations folder path that B added.
+- **Section tags** appear on every treatment answer again; B and A still produce none.
+- **The "not advice for any individual" sentence** appeared once in three treatment held-out samples (the run-1 resample), not in run 1 or run 2. It is not a stable behavior on that question.
+
+Still true: n is small (two runs per arm), one document, one model, one date, and the folder's author graded the held-out answers. Run 2 adds data, not a different conclusion.

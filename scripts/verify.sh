@@ -26,10 +26,10 @@ n=$(git log --format=%h -- identity.md rules.md examples.md | wc -l | tr -d ' ')
 python3 -I scripts/score.py --selftest | tail -1 | grep -q "SELFTEST OK" && ok "scorer selftest" || bad "scorer selftest"
 
 # 5. Scorer output matches the table in results.md.
-python3 -I - <<'PY' && ok "scorer reproduces results.md: A 1/9 and 0/9, B 9/9 and 9/9, treatment 9/9" || bad "scorer output differs from results.md"
+python3 -I - <<'PY' && ok "scorer reproduces results.md: A 1/9 and 0/9, B 9/9 and 9/9, treatment 9/9 and 9/9" || bad "scorer output differs from results.md"
 import sys; sys.path.insert(0, "scripts"); import score
 tot = lambda d: [sum(s.values()) for _, s, _ in score.run_dir(d)]
-sys.exit(0 if (tot("control/"), tot("control-b/"), tot("treatment/")) == ([1, 0], [9, 9], [9]) else 1)
+sys.exit(0 if (tot("control/"), tot("control-b/"), tot("treatment/")) == ([1, 0], [9, 9], [9, 9]) else 1)
 PY
 
 echo

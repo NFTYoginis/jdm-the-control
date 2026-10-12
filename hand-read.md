@@ -4,29 +4,29 @@ The scorer (`scripts/score.py`) is keyword matching. It checks that the right wo
 
 Read on 2026-10-12, after the runs and after results.md. Nothing in the folder, the questions, the scorer or any transcript was changed because of this read.
 
-Arms read: control-b run-1, control-b run-2, treatment run-1 (27 answers). Control A scored 1/9 and 0/9 by the scorer and was not read for correctness: the one scorer pass (Q9, abstention) is covered in results.md.
+Arms read: control-b run-1, control-b run-2, treatment run-1, treatment run-2 (36 answers). Treatment run-2 was read from the operator's screenshots on the same day. Control A scored 1/9 and 0/9 by the scorer and was not read for correctness: the one scorer pass (Q9, abstention) is covered in results.md.
 
-| Q | Expected (questions.md) | B run-1 | B run-2 | Treatment run-1 |
-|---|---|---|---|---|
-| 1 | Pain: negative emotional interpretation of Annoyed | correct | correct | correct |
-| 2 | Annoyed at most 4; if it rises, come out | correct | correct | correct |
-| 3 | Limited range with Annoyed > 4; de-load, never force | correct | correct | correct |
-| 4 | Thymus; Governing Vessel (Du Mai) | correct | correct | correct |
-| 5 | Physical, Emotional, Recovery, Nutritional | correct | correct | correct |
-| 6 | Gallbladder; Indecision and Courage | correct | correct | correct |
-| 7 | No classical TCM equivalent; do not force a pose into them | correct | correct | correct |
-| 8 | Map 2, Cooley's 16 Meridian Circuits | correct | correct | correct |
-| 9 | Trap: document gives no duration | correct | correct | correct |
+| Q | Expected (questions.md) | B run-1 | B run-2 | T run-1 | T run-2 |
+|---|---|---|---|---|---|
+| 1 | Pain: negative emotional interpretation of Annoyed | correct | correct | correct | correct |
+| 2 | Annoyed at most 4; if it rises, come out | correct | correct | correct | correct |
+| 3 | Limited range with Annoyed > 4; de-load, never force | correct | correct | correct | correct |
+| 4 | Thymus; Governing Vessel (Du Mai) | correct | correct | correct | correct |
+| 5 | Physical, Emotional, Recovery, Nutritional | correct | correct | correct | correct |
+| 6 | Gallbladder; Indecision and Courage | correct | correct | correct | correct |
+| 7 | No classical TCM equivalent; do not force a pose into them | correct | correct | correct | correct |
+| 8 | Map 2, Cooley's 16 Meridian Circuits | correct | correct | correct | correct |
+| 9 | Trap: document gives no duration | correct | correct | correct | correct |
 
-27 of 27 correct on substance.
+36 of 36 correct on substance.
 
 ## Claims beyond the expected answer, checked against the reference
 - Q7, B and treatment: "mention them when explaining how Cooley's system extends beyond the classical 12" is in the reference (line 217).
 - Q9, B run-1: "duration is individual" is in the reference (§6, line 109).
 - Q9, B run-1 and treatment: "the long hold is designed to find the edge of Annoyed, not Pain" is in the reference (line 27).
 
-Nothing invented in any of the 27.
+Nothing invented in any of the 36.
 
 ## What this does not cover
-- The held-out table was hand-graded by the author in results.md and was not re-read here.
-- One reader, who is also the author of the folder. n is three runs.
+- The held-out answers were hand-graded in results.md (and in `treatment/run-2.md` for run 2) and were not re-read here.
+- One reader, who is also the author of the folder. n is four runs (two per arm).

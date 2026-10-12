@@ -9,7 +9,7 @@ A reference-bound folder for one document (`reference/JDM-Insights-Reference.md`
 |---|---|---|
 | A: no document, no folder | 1/9 and 0/9 | 0/3 (abstained) |
 | B: document attached, no folder | 9/9 and 9/9 | 3/3 |
-| Treatment: the folder | 9/9 (1 run) | 3/3 and 3/3 |
+| Treatment: the folder | 9/9 and 9/9 | 3/3, 3/3 and 3/3 |
 
 The no-document arm is what a "no folder" control usually is. It scored 1/9 and 0/9. The document-only arm scored 9/9. The accuracy came from the document, not the folder. Behavior test (predictions committed first): the bar was not met, the folder differed on 1 of 3.
 
@@ -17,12 +17,12 @@ The no-document arm is what a "no folder" control usually is. It scored 1/9 and 
 - Running your own control on claude.ai: `CLEAN-CONTROL-CHECKLIST.md`
 - What the keyword scorer cannot see, and the hand-read of every answer: `scripts/blind_spot.py`, `hand-read.md`
 
-Added 2026-10-12, after the runs and after results.md. No transcript, question, scorer or result was changed.
+Added 2026-10-12, after results.md: this scoreboard, the pointers, and a second treatment run (`treatment/run-2.md`, see Addendum 2 in `results.md`). No earlier transcript, question, scorer or result was changed.
 
 ## The arms
 - **A, no folder, no document:** `control/` (2 valid runs, 3 discarded)
 - **B, document attached, no folder:** `control-b/` (2 runs)
-- **Treatment, the folder in a Claude Project:** `treatment/` (1 nine-question run, 2 held-out samples; discarded attempt kept)
+- **Treatment, the folder in a Claude Project:** `treatment/` (2 nine-question runs, 3 held-out samples; discarded attempt kept)
 
 ## Reproduce
 Model Claude Sonnet 5.5, Medium. Memory, connectors, web search off.
